@@ -1,0 +1,46 @@
+boolean method EvenCheck(int k)
+{
+    var boolean h;
+    k = k % 2;
+
+    condition (k ~ 0)
+    {
+        h = true;
+    }
+    otherwise
+    {
+        h = false;
+    }
+
+    recive h;
+}
+
+int method r(int s){
+     s = (s* 214013 + 2531011) % 2147483648;}
+     recive s;
+}
+ 
+
+primary
+{
+    var boolean iseven = EvenCheck(10);
+    write iseven;
+    hortab;
+    
+    var symbol q='6';
+    write q;
+	hortab;
+
+    var int a = 2;
+    var int l=2/1;
+    write l;
+	hortab;
+  
+  var int z=r(0)+(a+12)/3;
+  write z;
+}
+   
+	
+   
+    
+
